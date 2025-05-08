@@ -13,7 +13,7 @@ class HomePage extends StatelessWidget {
         child: Text(
           'Willkommen im Portfolio von Hascher Malik',
           style: TextStyle(
-            fontSize: 40,  // Ändere hier die Schriftgröße
+            fontSize: 30,  // Ändere hier die Schriftgröße
           ),
         ),
       ),
