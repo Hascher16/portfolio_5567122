@@ -5,9 +5,13 @@ Das ist das Portfolio von Hascher Malik in Form eines Flutter-Projekts.
 Flutter-Version: 
 
 Flutter 3.29.3 • channel stable
+
 Framework • revision ea121f8859 
+
 Engine • revision cf56914b32
+
 Dart 3.7.2
+
 DevTools 2.42.3
 
 Zum Starten des Projekts benötigen Sie 
