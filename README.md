@@ -30,6 +30,7 @@ Die folgenden Schritte müssen danach ausgeführt werden, sprich ins Terminal ei
 -> flutter run // Hier wird das Flutter-Projekt ausgeführt und dann im Android-Studio-Emulator angezeigt, falls installiert.
 
 Git-Branching-Strategie:
+
 Main-Branch: master
 
 Features: feature/Startseite
