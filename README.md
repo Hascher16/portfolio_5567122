@@ -1,6 +1,7 @@
 # portfolio_5567122
 
 Das ist das Portfolio von Hascher Malik in Form eines Flutter-Projekts.
+THM-Mail: hascher.malik@mnd.thm.de
 
 Flutter-Version: 
 
@@ -30,5 +31,7 @@ Die folgenden Schritte müssen danach ausgeführt werden, sprich ins Terminal ei
 
 Git-Branching-Strategie:
 Main-Branch: master
+
 Features: feature/Startseite
+
 Der Branch feature/Startseite wurde außerdem mit dem Branch Master gemerged.
