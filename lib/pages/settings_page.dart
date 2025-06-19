@@ -62,9 +62,8 @@ class _SettingsPageState extends State<SettingsPage> {
             const SizedBox(height: 30),
             Text(
               'Zusammenfassung:',
-              style: Theme.of(context).textTheme.headline6,
-            ),
-            const SizedBox(height: 10),
+              style: Theme.of(context).textTheme.titleLarge,
+             const SizedBox(height: 10),
             Text('Newsletter: ${_newsletter ? "Ja" : "Nein"}'),
             Text('Benachrichtigungen: ${_notifications ? "Ja" : "Nein"}'),
             Text('Dunkler Modus: ${_darkMode ? "An" : "Aus"}'),
