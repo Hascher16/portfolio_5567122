@@ -35,6 +35,20 @@ class HomePage extends StatelessWidget {
                   textStyle: const TextStyle(fontSize: 18),
                 ),
               ),
+		const SizedBox(height: 20),
+		ElevatedButton.icon(
+		onPressed: () {
+ 		Navigator.pushNamed(context, '/profile');
+  },
+  icon: const Icon(Icons.person),
+  label: const Text('Zur Profilseite'),
+  style: ElevatedButton.styleFrom(
+    padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 12),
+    textStyle: const TextStyle(fontSize: 18),
+  ),
+),
+
+
             ],
           ),
         ),
