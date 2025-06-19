@@ -47,6 +47,14 @@ class HomePage extends StatelessWidget {
     textStyle: const TextStyle(fontSize: 18),
   ),
 ),
+const SizedBox(height: 20),
+ElevatedButton.icon(
+  onPressed: () {
+    Navigator.pushNamed(context, '/settings');
+  },
+  icon: Icon(Icons.settings),
+  label: Text('Zur Einstellungsseite'),
+),
 
 
             ],

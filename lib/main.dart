@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
 import 'pages/home_page.dart';
 import 'pages/slider_page.dart';
+import 'pages/profile_form_page.dart';
+import 'pages/settings_page.dart';
+
+
 
 void main() {
   runApp(const MyApp());
@@ -19,7 +23,9 @@ class MyApp extends StatelessWidget {
       home: const HomePage(),
       routes: {
         '/slider': (context) => const SliderPage(),
-      },
+	'/profile': (context) => const ProfileFormPage(),      
+	'/settings': (context) => const SettingsPage(),
+	},
     );
   }
 }
