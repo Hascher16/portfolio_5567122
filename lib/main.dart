@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'pages/home_page.dart';
+import 'pages/slider_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +16,10 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const HomePage(),  // Stelle sicher, dass HomePage hier richtig referenziert wird.
+      home: const HomePage(),
+      routes: {
+        '/slider': (context) => const SliderPage(),
+      },
     );
   }
 }
