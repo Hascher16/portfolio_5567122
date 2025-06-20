@@ -3,6 +3,7 @@ import 'pages/home_page.dart';
 import 'pages/slider_page.dart';
 import 'pages/profile_form_page.dart';
 import 'pages/settings_page.dart';
+import 'pages/summary_page.dart';
 
 
 
@@ -25,6 +26,22 @@ class MyApp extends StatelessWidget {
         '/slider': (context) => const SliderPage(),
 	'/profile': (context) => const ProfileFormPage(),      
 	'/settings': (context) => const SettingsPage(),
+	routes: {
+  '/slider': (context) => const SliderPage(),
+  '/profile': (context) => const ProfileFormPage(),
+  '/settings': (context) => const SettingsPage(),
+  '/summary': (context) => const SummaryPage(
+    name: '',
+    email: '',
+    about: '',
+    sliderValue: 0,
+    newsletter: false,
+    notifications: false,
+    darkMode: false,
+    offlineMode: false,
+  ),
+},
+
 	},
     );
   }

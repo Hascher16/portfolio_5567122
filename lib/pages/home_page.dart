@@ -55,7 +55,30 @@ ElevatedButton.icon(
   icon: Icon(Icons.settings),
   label: Text('Zur Einstellungsseite'),
 ),
+const SizedBox(height: 20),
 
+ElevatedButton.icon(
+  onPressed: () {
+    // Testdaten für die Summary-Seite
+    Navigator.push(
+      context,
+      MaterialPageRoute(
+        builder: (context) => const SummaryPage(
+          name: 'Max Mustermann',
+          email: 'max@example.com',
+          about: 'Ich liebe Flutter!',
+          sliderValue: 42,
+          newsletter: true,
+          notifications: false,
+          darkMode: true,
+          offlineMode: false,
+        ),
+      ),
+    );
+  },
+  icon: const Icon(Icons.summarize),
+  label: const Text('Zur Zusammenfassung'),
+),
 
             ],
           ),
