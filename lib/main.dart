@@ -22,10 +22,6 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
       home: const HomePage(),
-      routes: {
-        '/slider': (context) => const SliderPage(),
-	'/profile': (context) => const ProfileFormPage(),      
-	'/settings': (context) => const SettingsPage(),
 	routes: {
   '/slider': (context) => const SliderPage(),
   '/profile': (context) => const ProfileFormPage(),
