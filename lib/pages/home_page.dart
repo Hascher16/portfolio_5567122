@@ -65,7 +65,7 @@ class HomePage extends StatelessWidget {
                       builder: (context) => SummaryPage( 
                         name: 'Max Mustermann',
                         email: 'max@example.com',
-                        about: 'Ich liebe Flutter!',
+                        about: '...',
                         sliderValue: 42,
                         newsletter: true,
                         notifications: false,
