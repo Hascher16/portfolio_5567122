@@ -32,12 +32,12 @@ class SummaryPage extends StatelessWidget {
         padding: const EdgeInsets.all(16.0),
         child: ListView(
           children: [
-            const Text('Ì±§ Profil', style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
+            const Text('üë§ Profil', style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
             Text('Name: $name'),
             Text('E-Mail: $email'),
             Text('√úber mich: $about'),
             const SizedBox(height: 20),
-            const Text('ÌæöÔ∏è Slider', style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
+            const Text('üéöÔ∏è Slider', style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
             Text('Wert: ${sliderValue.toInt()}'),
             const SizedBox(height: 20),
             const Text('‚öôÔ∏è Einstellungen', style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
